@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(256deg 40% 49%);
+  max-height: 800px;
+}
+.container {
+  height: 800px;
+}
+.logo {
+  /* position: relative;
+  bottom: 800px;
+  padding-top: 30px;
+  padding-left: 50px; */
+  position: absolute;
+  padding-left: 80px;
+  bottom: 580px;
+}
+.illustration {
+  position: absolute;
+  padding-left: 80px;
+  bottom: 30px;
+}
+.head {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600px;
+  color: white;
+  font-size: 30px;
+}
+.sub_heading {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400px;
+  color: white;
+  font-size: 15px;
+}
+.heading {
+  position: absolute;
+  bottom: 300px;
+  left: 850px;
+}
+button {
+  position: absolute;
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  bottom: 250px;
+  left: 850px;
+  border: solid 1px white;
+  box-shadow: 2px 3px rgba(77, 75, 75, 0.541);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+/* button::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+button:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+} */
+.socials {
+  position: absolute;
+  left: 1100px;
+  bottom: 20px;
+}
+.face {
+  width: 35px;
+  height: 35px;
+  padding-right: 30px;
+}
+.tweet {
+  width: 35px;
+  height: 35px;
+  padding-right: 30px;
+}
+.tweet:hover {
+  fill: #ce9797;
+}
+.insta {
+  width: 35px;
+  height: 35px;
+}
